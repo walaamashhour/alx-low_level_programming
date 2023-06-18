@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	chart ch = 'a';
+	char ch = 'a';
 
 	while (ch <= 'z')
 	{
