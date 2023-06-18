@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -entry point
+ * main - entry point
  *
  * Description: print a-z in reverse
  *
@@ -17,7 +17,7 @@ int main(void)
 		putchar(ch);
 		ch--;
 	}
-	putchart('\n');
+	putchar('\n');
 
 	return (0);
 }
