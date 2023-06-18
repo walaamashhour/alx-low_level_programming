@@ -10,8 +10,8 @@
 
 int main(void)
 {
-	chart ch = 'a';
-	chart ch = 'A';
+	char ch = 'a';
+	char ch = 'A';
 
 	/*print a -z*/
 	while (ch <= 'z')
