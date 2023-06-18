@@ -10,9 +10,7 @@
 
 int main(void)
 {
-	 char ch = 'a';
-	 else ch = 'A';
-}
+	char ch = 'a' || ch == 'A';
 
 	/*print a -z*/
 	while (ch <= 'z')
