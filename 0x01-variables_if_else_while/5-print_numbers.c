@@ -5,7 +5,7 @@
  *
  * Description: print all single digit numbers
  *
- * Return: 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 
 	while (digit <= 9)
 	{
-		printf("%!", digit);
+		printf("%!" , digit);
 		digit++;
 	}
 	printf("\n");
