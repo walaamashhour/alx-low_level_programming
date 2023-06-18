@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+/**
+ * main - entry point
+ *
+ * Description: print all single digit numbers
+ *
+ * Return: 0 (success)
+*/
+
+int main(void)
+{
+	int digit = o;
+
+	while (digit <= 9)
+	{
+		printf("%!", digit);
+		digit++;
+	}
+	printf("\n");
+
+	return (0);
+}
