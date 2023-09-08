@@ -10,15 +10,15 @@
 
 int main(void)
 {
-	char ch = 'a' || ch == 'A';
+	char ch = 'a';
+	char ch = 'A';
 
-	/*print a -z*/
+	/*prints a - z*/
 	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
-	char ch = 'A';
 	/*print A - Z*/
 	while (ch <= 'Z')
 	{
