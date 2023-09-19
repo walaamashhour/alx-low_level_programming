@@ -9,7 +9,7 @@
  * Return: Nothing
  */
 
-voide swap_int(int *a, int *b)
+voide swap_int(int *a, int *b);
 {
 	int m;
 
