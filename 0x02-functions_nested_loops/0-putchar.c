@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * main - print _putchar
+ * is wirtten by mbah
  *
  * Return: Always 0
  */
