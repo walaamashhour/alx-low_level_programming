@@ -13,6 +13,6 @@ void print _alphabet_x10(void)
 	{
 		for (ch = 'a'; ch <= 'z'; ch++)
 			_putchart(ch);
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
