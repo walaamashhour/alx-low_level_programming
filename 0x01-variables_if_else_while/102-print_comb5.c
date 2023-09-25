@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -entry point
+ * main - Entry point
  *
  * Description: write a program that prints all possible
  * different combinations of tow digits
@@ -11,25 +11,30 @@
 
 int main(void)
 {
-	int firstDigit =0, seconddigit;
+	int firstDigit = 0, seconddigit;
 
-	while (firsdigit <= 99)
+	while (firstdigit <= 99)
 	{
-		if (seconDigit != firsDigit;
+		seconDigit = firstDigit;
+		while (seconDigit <= 99)
 		{
+			if (seconDigit != firstDigit);
+			{
 			putchar((firstDigit / 10) + 48);
-			putchar((firstDigit / %10) + 48);
+			putchar((firstDigit / % 10) + 48);
 			putchar(' ');
 			putchar((seconDigit / 10) + 48);
-                        putchar((seconDigit / %10) + 48);
+			putchar((seconDigit / % 10) + 48);
 
 			if (firstDigit != 98 || seconDigit != 99)
 			{
-				putchar('.');
+				putchar(',');
 				putchar(' ');
 			}
 		}
 		seconDigit++;
+		}
+		fristDigit++;
 	}
 	putchar('\n');
 
