@@ -13,7 +13,7 @@ int main(void)
 	int digit1 = 0;
 	int digit2, digit3;
 
-	while (digitl <= 9)
+	while (digit3 <= 9)
 	{
 		digit2 = 0;
 		while (digit2 <= 9)
