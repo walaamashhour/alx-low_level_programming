@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main -entry point
+ * main - Entry point
  *
- * Description: prints the alphabet in lowercase, and then in uppercase
+ * Description: print the alphabet in lowercase then in uppercase
  *
- * Return: always 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
 {
 	char ch = 'a';
-	char ch = 'A';
+	char CH = 'A';
 
 	/*prints a - z*/
 	while (ch <= 'z')
@@ -20,9 +20,9 @@ int main(void)
 		ch++;
 	}
 	/*print A - Z*/
-	while (ch <= 'Z')
+	while (CH <= 'Z')
 	{
-		putchar(ch);
+		putchar(CH);
 		ch++;
 	}
 	putchar('\n');
