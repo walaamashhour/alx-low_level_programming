@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stidlib.h>
+#include <stdlib.h>
 
 /**
  * main -print sum of 2 numbers.
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 					}
 					else
 					{
-					printf("ERROR\N");
+					printf("Error\n");
 					return (1);
 					}
 					
